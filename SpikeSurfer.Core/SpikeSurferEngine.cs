@@ -13,6 +13,17 @@ public sealed class SpikeSurferEngine
     var strategyEngine = new StrategyEngine();
     var strategy = strategyEngine.Select(regime);
 
+    var openRangeEngine = new OpenRangeEngine();
+var openRange = openRangeEngine.Analyze(snapshot);
+
+var reaperEngine = new SecondWaveReaperEngine();
+var reaper = reaperEngine.Analyze(snapshot, openRange);
+
+if (reaper.Intent != ExecutionIntent.Watch)
+{
+    strategy = reaper;
+}
+
         return new MarketReadResult(
             new MarketContext("UNKNOWN", regime.Reason, false, false, false, false),
             new WaveState(0, 0, 0, false, false, false, "BOOT"),
