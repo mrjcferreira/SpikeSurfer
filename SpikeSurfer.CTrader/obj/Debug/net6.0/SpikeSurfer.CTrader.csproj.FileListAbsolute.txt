@@ -17,3 +17,4 @@ C:\SpikeSurfer\SpikeSurfer.CTrader\obj\Debug\net6.0\SpikeSurfer.CTrader.dll
 C:\SpikeSurfer\SpikeSurfer.CTrader\obj\Debug\net6.0\refint\SpikeSurfer.CTrader.dll
 C:\SpikeSurfer\SpikeSurfer.CTrader\obj\Debug\net6.0\SpikeSurfer.CTrader.pdb
 C:\SpikeSurfer\SpikeSurfer.CTrader\obj\Debug\net6.0\ref\SpikeSurfer.CTrader.dll
+C:\SpikeSurfer\SpikeSurfer.CTrader\obj\Debug\net6.0\SpikeSurfer.CTrader.sourcelink.json

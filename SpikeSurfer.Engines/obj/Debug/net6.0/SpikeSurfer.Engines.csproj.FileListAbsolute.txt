@@ -13,3 +13,4 @@ C:\SpikeSurfer\SpikeSurfer.Engines\obj\Debug\net6.0\SpikeSurfer.Engines.dll
 C:\SpikeSurfer\SpikeSurfer.Engines\obj\Debug\net6.0\refint\SpikeSurfer.Engines.dll
 C:\SpikeSurfer\SpikeSurfer.Engines\obj\Debug\net6.0\SpikeSurfer.Engines.pdb
 C:\SpikeSurfer\SpikeSurfer.Engines\obj\Debug\net6.0\ref\SpikeSurfer.Engines.dll
+C:\SpikeSurfer\SpikeSurfer.Engines\obj\Debug\net6.0\SpikeSurfer.Engines.sourcelink.json

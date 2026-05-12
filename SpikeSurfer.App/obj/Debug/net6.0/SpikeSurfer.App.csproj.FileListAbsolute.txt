@@ -22,3 +22,4 @@ C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\refint\SpikeSurfer.App.dll
 C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\SpikeSurfer.App.pdb
 C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\SpikeSurfer.App.genruntimeconfig.cache
 C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\ref\SpikeSurfer.App.dll
+C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\SpikeSurfer.App.sourcelink.json
