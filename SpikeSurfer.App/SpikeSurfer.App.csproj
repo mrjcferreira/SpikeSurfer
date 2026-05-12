@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpikeSurfer.Models\SpikeSurfer.Models.csproj" />
+    <ProjectReference Include="..\SpikeSurfer.Core\SpikeSurfer.Core.csproj" />
+    <ProjectReference Include="..\SpikeSurfer.CTrader\SpikeSurfer.CTrader.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

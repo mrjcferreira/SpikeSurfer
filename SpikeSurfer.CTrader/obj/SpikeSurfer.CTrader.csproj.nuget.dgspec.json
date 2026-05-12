@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SpikeSurfer\\SpikeSurfer.CTrader\\SpikeSurfer.CTrader.csproj": {}
+  },
+  "projects": {
+    "C:\\SpikeSurfer\\SpikeSurfer.Core\\SpikeSurfer.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SpikeSurfer\\SpikeSurfer.Core\\SpikeSurfer.Core.csproj",
+        "projectName": "SpikeSurfer.Core",
+        "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Core\\SpikeSurfer.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\SpikeSurfer\\SpikeSurfer.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\SpikeSurfer\\SpikeSurfer.Engines\\SpikeSurfer.Engines.csproj": {
+                "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Engines\\SpikeSurfer.Engines.csproj"
+              },
+              "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj": {
+                "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SpikeSurfer\\SpikeSurfer.CTrader\\SpikeSurfer.CTrader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SpikeSurfer\\SpikeSurfer.CTrader\\SpikeSurfer.CTrader.csproj",
+        "projectName": "SpikeSurfer.CTrader",
+        "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.CTrader\\SpikeSurfer.CTrader.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\SpikeSurfer\\SpikeSurfer.CTrader\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\SpikeSurfer\\SpikeSurfer.Core\\SpikeSurfer.Core.csproj": {
+                "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Core\\SpikeSurfer.Core.csproj"
+              },
+              "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj": {
+                "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SpikeSurfer\\SpikeSurfer.Engines\\SpikeSurfer.Engines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SpikeSurfer\\SpikeSurfer.Engines\\SpikeSurfer.Engines.csproj",
+        "projectName": "SpikeSurfer.Engines",
+        "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Engines\\SpikeSurfer.Engines.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\SpikeSurfer\\SpikeSurfer.Engines\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj": {
+                "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj",
+        "projectName": "SpikeSurfer.Models",
+        "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\SpikeSurfer\\SpikeSurfer.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "framework": "net6.0",
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "framework": "net6.0",
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

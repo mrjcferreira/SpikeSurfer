@@ -1,0 +1,11 @@
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/SpikeSurfer.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/SpikeSurfer.Models.AssemblyInfoInputs.cache
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/SpikeSurfer.Models.AssemblyInfo.cs
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/SpikeSurfer.Models.csproj.CoreCompileInputs.cache
+/Volumes/SpikeSurfer/SpikeSurfer.Models/bin/Debug/net10.0/SpikeSurfer.Models.deps.json
+/Volumes/SpikeSurfer/SpikeSurfer.Models/bin/Debug/net10.0/SpikeSurfer.Models.dll
+/Volumes/SpikeSurfer/SpikeSurfer.Models/bin/Debug/net10.0/SpikeSurfer.Models.pdb
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/SpikeSurfer.Models.dll
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/refint/SpikeSurfer.Models.dll
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/SpikeSurfer.Models.pdb
+/Volumes/SpikeSurfer/SpikeSurfer.Models/obj/Debug/net10.0/ref/SpikeSurfer.Models.dll

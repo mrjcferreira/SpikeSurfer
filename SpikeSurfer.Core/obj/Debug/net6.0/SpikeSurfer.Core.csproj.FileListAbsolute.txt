@@ -1,0 +1,17 @@
+C:\SpikeSurfer\SpikeSurfer.Core\bin\Debug\net6.0\SpikeSurfer.Core.deps.json
+C:\SpikeSurfer\SpikeSurfer.Core\bin\Debug\net6.0\SpikeSurfer.Core.dll
+C:\SpikeSurfer\SpikeSurfer.Core\bin\Debug\net6.0\SpikeSurfer.Core.pdb
+C:\SpikeSurfer\SpikeSurfer.Core\bin\Debug\net6.0\SpikeSurfer.Engines.dll
+C:\SpikeSurfer\SpikeSurfer.Core\bin\Debug\net6.0\SpikeSurfer.Models.dll
+C:\SpikeSurfer\SpikeSurfer.Core\bin\Debug\net6.0\SpikeSurfer.Models.pdb
+C:\SpikeSurfer\SpikeSurfer.Core\bin\Debug\net6.0\SpikeSurfer.Engines.pdb
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSurfer.Core.csproj.AssemblyReference.cache
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSurfer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSurfer.Core.AssemblyInfoInputs.cache
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSurfer.Core.AssemblyInfo.cs
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSurfer.Core.csproj.CoreCompileInputs.cache
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSur.61E080B1.Up2Date
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSurfer.Core.dll
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\refint\SpikeSurfer.Core.dll
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\SpikeSurfer.Core.pdb
+C:\SpikeSurfer\SpikeSurfer.Core\obj\Debug\net6.0\ref\SpikeSurfer.Core.dll

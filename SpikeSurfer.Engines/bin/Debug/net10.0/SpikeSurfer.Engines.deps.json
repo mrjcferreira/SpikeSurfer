@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SpikeSurfer.Engines/1.0.0": {
+        "dependencies": {
+          "SpikeSurfer.Models": "1.0.0"
+        },
+        "runtime": {
+          "SpikeSurfer.Engines.dll": {}
+        }
+      },
+      "SpikeSurfer.Models/1.0.0": {
+        "runtime": {
+          "SpikeSurfer.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpikeSurfer.Engines/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpikeSurfer.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

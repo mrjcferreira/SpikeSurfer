@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SpikeSurfer.App/SpikeSurfer.App.csproj" />
+  <Project Path="SpikeSurfer.Core/SpikeSurfer.Core.csproj" />
+  <Project Path="SpikeSurfer.CTrader/SpikeSurfer.CTrader.csproj" />
+  <Project Path="SpikeSurfer.Models/SpikeSurfer.Models.csproj" />
+</Solution>

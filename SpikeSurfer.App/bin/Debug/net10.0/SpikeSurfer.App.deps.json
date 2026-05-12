@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SpikeSurfer.App/1.0.0": {
+        "dependencies": {
+          "SpikeSurfer.CTrader": "1.0.0",
+          "SpikeSurfer.Core": "1.0.0",
+          "SpikeSurfer.Models": "1.0.0"
+        },
+        "runtime": {
+          "SpikeSurfer.App.dll": {}
+        }
+      },
+      "SpikeSurfer.Core/1.0.0": {
+        "dependencies": {
+          "SpikeSurfer.Engines": "1.0.0",
+          "SpikeSurfer.Models": "1.0.0"
+        },
+        "runtime": {
+          "SpikeSurfer.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SpikeSurfer.CTrader/1.0.0": {
+        "dependencies": {
+          "SpikeSurfer.Core": "1.0.0",
+          "SpikeSurfer.Models": "1.0.0"
+        },
+        "runtime": {
+          "SpikeSurfer.CTrader.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SpikeSurfer.Engines/1.0.0": {
+        "dependencies": {
+          "SpikeSurfer.Models": "1.0.0"
+        },
+        "runtime": {
+          "SpikeSurfer.Engines.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SpikeSurfer.Models/1.0.0": {
+        "runtime": {
+          "SpikeSurfer.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpikeSurfer.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpikeSurfer.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpikeSurfer.CTrader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpikeSurfer.Engines/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpikeSurfer.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
