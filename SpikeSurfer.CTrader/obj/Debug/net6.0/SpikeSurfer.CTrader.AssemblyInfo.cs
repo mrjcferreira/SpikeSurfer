@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpikeSurfer.CTrader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f99d3020f89137a2fe02f8fca147e44d46ad5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+875956d698510ed5c56365efac0a02b3ec791a75")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpikeSurfer.CTrader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpikeSurfer.CTrader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

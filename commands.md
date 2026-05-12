@@ -99,3 +99,10 @@ type .\SpikeSurfer.App\Program.cs
 
 
 dotnet run --project .\SpikeSurfer.App\SpikeSurfer.App.csproj
+
+
+git add .
+git commit -m "Add cTrader candle mapper"
+git push
+
+
