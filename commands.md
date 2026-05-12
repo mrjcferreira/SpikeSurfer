@@ -105,4 +105,6 @@ git add .
 git commit -m "Add cTrader candle mapper"
 git push
 
-
+git add .
+git commit -m "Connect snapshot builder to real cTrader bars"
+git push
