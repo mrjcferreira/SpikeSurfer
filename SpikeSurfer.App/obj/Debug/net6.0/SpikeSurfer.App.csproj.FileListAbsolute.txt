@@ -33,3 +33,5 @@ C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\staticwebassets.build.json.cache
 C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\staticwebassets.development.json
 C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\staticwebassets.build.endpoints.json
 C:\SpikeSurfer\SpikeSurfer.App\obj\Debug\net6.0\swae.build.ex.cache
+C:\SpikeSurfer\SpikeSurfer.App\bin\Debug\net6.0\appsettings.json
+C:\SpikeSurfer\SpikeSurfer.App\bin\Debug\net6.0\appsettings.template.json

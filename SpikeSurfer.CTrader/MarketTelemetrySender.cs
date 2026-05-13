@@ -1,24 +1,36 @@
-using System;
-using System.Net.Http;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace SpikeSurfer.CTrader;
 
-public class MarketTelemetrySender
+public sealed class MarketTelemetrySender
 {
     private readonly HttpClient _http = new();
 
-    public async Task SendAsync(string url, MarketTelemetrySnapshot snapshot)
+    private readonly JsonSerializerOptions _jsonOptions = new()
     {
-        var json = JsonSerializer.Serialize(snapshot);
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+    };
+
+    public async Task SendAsync(string url, MarketTelemetryPayload payload)
+    {
+        var json = JsonSerializer.Serialize(payload, _jsonOptions);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
-        await _http.PostAsync(url, content);
+
+        try
+        {
+            var response = await _http.PostAsync(url, content);
+            response.EnsureSuccessStatusCode();
+        }
+        catch (HttpRequestException)
+        {
+            // Dashboard unreachable — swallow silently so cBot doesn't crash.
+            // TODO: Add logging / retry counter.
+        }
     }
 }
 
-public class MarketTelemetrySnapshot
+public class MarketTelemetryPayload
 {
     public string Symbol { get; set; } = "XAUUSD";
     public double Bid { get; set; }

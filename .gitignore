@@ -1,0 +1,26 @@
+## .NET
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+
+## User / IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.DotSettings.user
+
+## macOS
+.DS_Store
+Thumbs.db
+
+## Data
+data/replays/
+
+## Secrets — never commit real config
+appsettings.json
+appsettings.*.json
+!appsettings.template.json
