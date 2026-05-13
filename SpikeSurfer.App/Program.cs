@@ -1,10 +1,15 @@
-﻿using SpikeSurfer.Core;
-using SpikeSurfer.CTrader;
+﻿var builder = WebApplication.CreateBuilder(args);
 
-var engine = new SpikeSurferEngine();
+builder.Services.AddControllers();
 
-var snapshot = CTraderSnapshotBuilder.Build();
+var app = builder.Build();
 
-var result = engine.Read(snapshot);
+app.MapControllers();
 
-Console.WriteLine(result);
+app.MapGet("/", () => new
+{
+    status = "SpikeSurfer API running",
+    timeUtc = DateTime.UtcNow
+});
+
+app.Run();

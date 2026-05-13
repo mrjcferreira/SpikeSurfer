@@ -16,20 +16,6 @@
           "bin/placeholder/SpikeSurfer.Core.dll": {}
         }
       },
-      "SpikeSurfer.CTrader/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "SpikeSurfer.Core": "1.0.0",
-          "SpikeSurfer.Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SpikeSurfer.CTrader.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SpikeSurfer.CTrader.dll": {}
-        }
-      },
       "SpikeSurfer.Engines/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -61,11 +47,6 @@
       "path": "../SpikeSurfer.Core/SpikeSurfer.Core.csproj",
       "msbuildProject": "../SpikeSurfer.Core/SpikeSurfer.Core.csproj"
     },
-    "SpikeSurfer.CTrader/1.0.0": {
-      "type": "project",
-      "path": "../SpikeSurfer.CTrader/SpikeSurfer.CTrader.csproj",
-      "msbuildProject": "../SpikeSurfer.CTrader/SpikeSurfer.CTrader.csproj"
-    },
     "SpikeSurfer.Engines/1.0.0": {
       "type": "project",
       "path": "../SpikeSurfer.Engines/SpikeSurfer.Engines.csproj",
@@ -79,8 +60,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "SpikeSurfer.CTrader >= 1.0.0",
       "SpikeSurfer.Core >= 1.0.0",
+      "SpikeSurfer.Engines >= 1.0.0",
       "SpikeSurfer.Models >= 1.0.0"
     ]
   },
@@ -120,8 +101,8 @@
             "C:\\SpikeSurfer\\SpikeSurfer.Core\\SpikeSurfer.Core.csproj": {
               "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Core\\SpikeSurfer.Core.csproj"
             },
-            "C:\\SpikeSurfer\\SpikeSurfer.CTrader\\SpikeSurfer.CTrader.csproj": {
-              "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.CTrader\\SpikeSurfer.CTrader.csproj"
+            "C:\\SpikeSurfer\\SpikeSurfer.Engines\\SpikeSurfer.Engines.csproj": {
+              "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Engines\\SpikeSurfer.Engines.csproj"
             },
             "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj": {
               "projectPath": "C:\\SpikeSurfer\\SpikeSurfer.Models\\SpikeSurfer.Models.csproj"
@@ -157,6 +138,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
