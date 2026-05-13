@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpikeSurfer.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f004dd15009a15513f869cecae8bc6582060942")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fb487df5f06094abc5f3f4ec3e79c16b86ef14a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpikeSurfer.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpikeSurfer.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

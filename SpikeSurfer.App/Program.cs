@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-// Pushcut notifications — URL from appsettings.json
+// Pushcut notifications
 var pushcutUrl = builder.Configuration["Pushcut:WebhookUrl"]
     ?? throw new InvalidOperationException("Pushcut:WebhookUrl not configured in appsettings.json");
 
@@ -16,6 +16,15 @@ builder.Services.AddSingleton(new PushcutNotifier(pushcutUrl, new PushcutThresho
     CooldownSeconds = 120,
     MinPriceMoveBetweenAlerts = 1.0
 }));
+
+// Gemini sentiment analysis
+var geminiKey = builder.Configuration["Gemini:ApiKey"]
+    ?? throw new InvalidOperationException("Gemini:ApiKey not configured in appsettings.json");
+
+var geminiModel = builder.Configuration["Gemini:Model"] ?? "gemini-2.5-flash";
+var geminiInterval = int.TryParse(builder.Configuration["Gemini:IntervalSeconds"], out var gi) ? gi : 300;
+
+builder.Services.AddSingleton(new GeminiSentimentService(geminiKey, geminiModel, geminiInterval));
 
 var app = builder.Build();
 
