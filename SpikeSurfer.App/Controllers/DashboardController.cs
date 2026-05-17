@@ -450,7 +450,9 @@ function createDashboard() {
                 <canvas id='priceChart'></canvas>
             </div>
         </div>
-
+		
+		<div id='narrativeBox' class='card' style='grid-column: span 3;'></div>
+			
         <div class='data-grid'>
             <div class='data-cell'>
                 <div class='data-cell-label'>1h Change</div>
@@ -591,7 +593,7 @@ let sessionLow = Infinity;
 
 async function update() {
     try {
-        const r = await fetch('/api/market/xauusd');
+      	const r = await fetch('/api/market/xauusd');
 
         if (!r.ok) {
             document.getElementById('statusDot').classList.remove('live');
@@ -600,6 +602,14 @@ async function update() {
         }
 
         const d = await r.json();
+		
+		let narrative = null;
+		try {
+  		  	const nr = await fetch('/api/dashboard/narrative');
+    		if (nr.ok) {
+     		   narrative = await nr.json();
+    		}
+		} catch {}
 
         if (!dataReceived) {
             dataReceived = true;
@@ -676,6 +686,22 @@ async function update() {
         }
 
         if (chart) chart.update('none');
+
+		const narrativeEl = document.getElementById('narrativeBox');
+		if (narrativeEl && narrative) {
+  			narrativeEl.innerHTML = `
+     		  	<div class='card-label'>MARKET STRUCTURE</div>
+       		 	<div style='font-size:22px;font-weight:700;color:var(--accent-gold);margin-bottom:10px;'>${narrative.structure}</div>
+        		<div style='font-family:var(--font-mono);font-size:13px;color:var(--text-secondary);line-height:1.8;'>
+            		<div>Phase: ${narrative.phase}</div>
+            		<div>Bias: ${narrative.bias}</div>
+            		<div>Energy: ${narrative.energy}</div>
+            		<div>Confidence: ${narrative.confidence}%</div>
+            		<div>ETA: ${narrative.etaCandles} candles</div>
+        		</div>
+        		<p style='margin-top:12px;color:var(--text-primary);'>${narrative.narrative}</p>
+    `		;
+		}
 
     } catch (e) {
         const dot = document.getElementById('statusDot');
